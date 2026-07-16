@@ -48,7 +48,7 @@ public class Main {
                 height = userInput.obtainHeight(bmiSystem);
                 
                 // Please invoke the calculateBmiImperial() method of the BMICalculator class
-                bmi = bmiCalculator.calculateBmiImperial();
+                bmi = bmiCalculator.calculateBmiImperial(weight, height);
                 
                 // Break out of the switch statement
                 break;
@@ -61,7 +61,7 @@ public class Main {
                 height = userInput.obtainHeight(bmiSystem);
 
                 // Please invoke the calculateBmiMetric() method of the BMICalculator class
-                bmi = bmiCalculator.calculateBmiMetric();
+                bmi = bmiCalculator.calculateBmiMetric(weight, height);
 
                 // Break out of the switch statement
                 break;
